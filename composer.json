@@ -2,7 +2,7 @@
     "name": "fcosrno/aspect",
     "description": "A tiny Imagine wrapper to resize and crop without distortion and with the convenience of requiring only desired dimension.",
     "type": "library",
-    "keywords": [ "Imagine","image","aspect ratio","resize","crop","dimensions" ],
+    "keywords": [ "image","aspect ratio","resize","crop","dimensions","imagine" ],
     "license": "MIT",
     "authors": [
         {
