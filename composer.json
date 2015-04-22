@@ -1,0 +1,20 @@
+{
+    "name": "fcosrno/aspect",
+    "description": "A tiny Imagine wrapper to resize and crop without distortion and with the convenience of requiring only desired dimension.",
+    "type": "library",
+    "keywords": [ "Imagine","image","aspect ratio","resize","crop","dimensions" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francisco Serrano",
+            "email": "fserrano@gmail.com"
+        }
+    ],
+    "require": {
+        "imagine/Imagine": "dev-master"
+        },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Fcosrno\\Aspect\\": "src/"}
+    }
+}
