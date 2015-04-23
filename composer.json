@@ -1,8 +1,11 @@
 {
     "name": "fcosrno/aspect",
-    "description": "A tiny Imagine wrapper to resize and crop without distortion and with the convenience of requiring only desired dimension.",
+    "description": "Resize and crop without distortion by providing one target dimension.",
     "type": "library",
-    "keywords": [ "image","aspect ratio","resize","crop","dimensions","imagine" ],
+    "keywords": [ 
+        "image","aspect ratio","resize","crop","dimensions",
+        "imagine","gd","imagick","thumbnail"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +14,8 @@
         }
     ],
     "require": {
-        "imagine/Imagine": "dev-master"
+        "imagine/Imagine": "dev-master",
+        "php": ">=5.3.10",
         },
     "minimum-stability": "dev",
     "autoload": {
