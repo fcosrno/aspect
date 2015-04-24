@@ -1,6 +1,8 @@
 # Aspect
 A PHP image library wrapper to resize and crop without distortion and with the convenience of requiring only one target dimension.
 
+**Heads up!** Before using this wrapper, consider using [Intervention Image](http://image.intervention.io/) or [PHPThumb](https://github.com/masterexploder/PHPThumb). Both of those can do what Aspect does, plus more. Intevention Image has the fit() method and PHPThumb has "Adaptive Resizing". If you insist on using a library that does not have similar methods, then keep reading.
+
 # Introduction
  
 When you're resizing with image libraries like [Imagine](https://github.com/avalanche123/Imagine), you're required to provide both the target width and height. Yet, sometimes you don't know what the values of those dimensions should be. 
